@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.imgProfile{
+    height: 400px;
+    width: 300px;
+    background-image: url(./assets/images/me.JPG);
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-profile{
+    height: 450px;
+    background-color: brown;
+}
+.side-1{
+    /* background-color: blueviolet; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.name{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sosmed{
+    color: white;
+    font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon{
+    letter-spacing: 15px;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.foto{
+    width: 250px;
+}
+.LandingPage{
+    display: grid;
+    justify-items: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Perkenalan{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nur{
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 2px #03001C;
+}
+
+.feedback{
+    margin-right: 200px;
+    margin-left: 200px;
 }
