@@ -17,7 +17,7 @@ function Profile() {
                 <Col className='text-white'>
                     <h4>Hallo</h4>
                     <hr />
-                    <p>Nama saya Muhammad Nurman Hadi, saya saat ini mahasiswa semester 5 di salah satu Universitas di Jakarta. saya mengambil jurusan Teknik Informatika</p>
+                    <p>Nama saya Muhammad Nurman Hadi, saya saat ini mahasiswa angkatan 2020/2021 di salah satu Universitas di Jakarta. saya mengambil jurusan Teknik Informatika</p>
                     <h4>Hobi</h4>
                     <hr />
                     <p>Hobi saya yaitu bermain game dan membaca komik</p>
