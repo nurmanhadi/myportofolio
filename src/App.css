@@ -1,3 +1,6 @@
+#topbar{
+    display: none;
+}
 .imgProfile{
     height: 400px;
     width: 300px;
@@ -30,6 +33,25 @@
     letter-spacing: 15px;
     text-align: center;
 }
+.icons{
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+.nav-icon{
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+.lk{
+    text-decoration: none;
+    color: red;
+}
+
+.logo-brand{
+    height: 30px;
+}
 
 .foto{
     width: 250px;
@@ -54,4 +76,30 @@
 .feedback{
     margin-right: 200px;
     margin-left: 200px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('./assets/images/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        background-image: url('./assets/images/bg.jpg');
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    .feedback{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #navi{
+        display: none;
+    }
+    #topbar{
+        display: block;
+    }
 }

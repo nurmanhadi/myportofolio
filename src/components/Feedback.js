@@ -17,7 +17,7 @@ const Feedback = () => {
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Messege"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Messege"></textarea>
                 </Form.Group >
                 <Form.Group className='text-center'>
                     <Button variant="primary" onClick={() => event()}>SEND</Button>
